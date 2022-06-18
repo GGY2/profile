@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Card, Button } from 'react-bootstrap';
-import ProfilePhoto from './ProfilePhoto';
-import FullName from './FullName';
-import Address from './Address';
+import ProfilePhoto from './components/ProfilePhoto';
+import FullName from './components/FullName';
+import Address from './components/Address';
 
 function App() {
   return (

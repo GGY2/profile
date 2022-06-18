@@ -1,10 +1,9 @@
 import React from 'react';
-import profileImage from './images/profileImage.jpg';
 
 const ProfilePhoto = () => {
   return(
       <>
-        <img src={profileImage} />
+        <img src="./images/profileImage.jpg" alt="profile image" />
       </>
   );  
 };
